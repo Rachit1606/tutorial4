@@ -1,0 +1,47 @@
+.user-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../Assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .user-details {
+    background-color: #E8F0FE;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the text */
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .user-info > div {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .user-info img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .user-info p {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
